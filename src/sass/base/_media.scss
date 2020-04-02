@@ -19,6 +19,9 @@
             max-width: 200px;
         }
     }
+    .title_left {
+        font-size: 30px;
+    }
 
 
 }
@@ -60,7 +63,17 @@
             margin-top: 15px;
         }
     }
-
+    .consultation {
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .title_left {
+            text-align: center;
+        }
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -108,5 +121,22 @@
     .title {
         font-size: 26px;
         line-height: 40px;
+        &_left {
+            font-size: 20px;
+        }
+    }
+    .button {
+        &__main {
+            width: 250px;
+        }
+    }
+    .consultation {
+        padding: 40px 0 60px 0;
+        &__descr {
+            width: 80%;
+            font-size: 16px;
+            text-align: center;
+        }
+
     }
 }
