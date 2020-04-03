@@ -1,7 +1,10 @@
 $(document).ready(function(){
     $('.carousel__inner').slick({
+        // infinite: true,
+        // slidesToShow: 1,
+        // slidesToScroll: 1,
         speed: 1200,
-        // adaptiveHeight: true,
+        adaptiveHeight: true,
         prevArrow: '<button type="button" class="slick-prev"><img src="icons/s4_carousel/left.svg"></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="icons/s4_carousel/right.svg"></button>',
         responsive: [
@@ -13,23 +16,5 @@ $(document).ready(function(){
                 }
             }
         ]
-      });
-  });
-
-
-
-// const slider = tns({
-//     container: '.carousel__inner',
-//     items: 1,
-//     slideBy: 'page',
-//     autoplay: false,
-//     controls: false,
-//     nav: false
-//   });
-
-//   document.querySelector('.prev').addEventListener('click', function () {
-//     slider.goTo('prev');
-//   });
-//   document.querySelector('.next').addEventListener('click', function () {
-//     slider.goTo('next');
-//   });
+    })
+});
