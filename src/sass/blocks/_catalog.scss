@@ -30,17 +30,20 @@
         div {
             transform: skewX(35deg);
         }
-    }
-    &_active {
-        color: #fff;
-        background-color: $main-color;
-        border-color: $main-color;
+        &_active {
+            color: #fff;
+            background-color: $main-color;
+            border-color: $main-color;
+        }
     }
     &__content {
         margin-top: 60px;
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 300px;
