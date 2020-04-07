@@ -87,6 +87,7 @@
             width: 353px;
         }
     }
+
     .advantages {
         &__wrapper {
             flex-direction: column;
@@ -139,6 +140,17 @@
             }
         }
     }
+    .reviews-item {
+        flex-direction: column;
+        align-items: center;
+        .wrapper {
+            width: 90%;
+        }
+        img {
+            margin: 0 auto 40px auto;
+        }
+    }
+
 }
 @media (max-width: 575px) {
     .header {
@@ -209,5 +221,18 @@
             width: 320px;
         }
     }
-
+    .footer {
+        height: 100%;
+        iframe {
+            display: none;
+        }
+        &__info {
+            width: 100%;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        &__social {
+            margin: 0 auto;
+        }
+    }
 }
