@@ -235,4 +235,12 @@
             margin: 0 auto;
         }
     }
+    .modal {
+        width: 300px;
+        padding: 20px 10px 10px 10px;
+        input, .button_submit {
+            width: calc(100% - 20px);
+        }
+    }
+
 }
