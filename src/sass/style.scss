@@ -1,3 +1,8 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+@import 'libs/animate';
+
 @import 'base/variables';
 @import 'base/animations';
 * {
@@ -21,7 +26,6 @@
 @import 'blocks/footer';
 @import 'blocks/modal';
 @import 'blocks/pageup';
-
 
 
 @import 'base/media';
