@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="css/font.css">
     <!-- slick файл -->
     <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
 
   <body>
-    <section class="promo">
+    <section class="promo" id="up">
       <div class="container">
         <header class="header">
           <a href="#" class="header__logo">
@@ -70,7 +71,7 @@
             </div>
           </div>
           <div class="advantages__item">
-            <img src="icons/s2_advantage/ic2_heart.png" alt="heart" class="advantages__icon">
+            <img src="icons/s2_advantage/ic2_heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
             <div class="advantages__subtitle">Заботимся о здоровье</div>
             <div class="advantages__descr">
               Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -382,7 +383,7 @@
     <section class="reviews">
       <div class="container">
         <h2 class="title">отзывы клиентов</h2>
-        <div class="reviews-item">
+        <div class="reviews-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
           <img src="img/s6_comment/feed1.jpg" alt="feed1" class="reviews-item__img">
           <div class="wrapper">
             <div class="reviews-item__title">Ирина Иванченко</div>
@@ -397,7 +398,7 @@
           </div>
         </div>
         <hr>
-        <div class="reviews-item">
+        <div class="reviews-item  fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
           <img src="img/s6_comment/feed2.jpg" alt="feed2" class="reviews-item__img">
           <div class="wrapper">
             <div class="reviews-item__title">Иван Сёмочкин</div>
@@ -410,7 +411,7 @@
           </div>
         </div>
         <hr>
-        <div class="reviews-item">
+        <div class="reviews-item  fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
           <img src="img/s6_comment/feed3.jpg" alt="feed3" class="reviewss-item__img">
           <div class="wrapper">
             <div class="reviews-item__title">Юлия Дашкина</div>
@@ -476,6 +477,9 @@
       </div>
     </div>
 
+    <a href="#up" class="pageup">
+      <img src="icons/page_up.svg" alt="up" >
+    </a>
 
         <!-- script для jq  -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -484,6 +488,7 @@
     <script type="text/javascript" src="js/slick.min.js"></script>
      <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
