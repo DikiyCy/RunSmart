@@ -1,2 +1,2 @@
 # RunSmart
-https://dikiycy.github.io/RunSmart/src/index.html
+https://dikiycy.github.io/RunSmart/dist/index.html
